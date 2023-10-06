@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>
+        Campeonatos Deportivos San Francisco.
+    </H1>
+    <hr>
+    <label for="nombre">Ingrese su nombre: </label>
+    <input type="text" id="nombre" name="nombre" placeholder="ingresa tu nombre."> <br>
+
+    <label for="apellido">Ingrese su apellido</label>
+    <input type="text" name="apellido" id="apellido" placeholder="ingresa tu apellido"><br>
+
+    <label for="dni">Ingrese su numero de documento (DNI): </label>
+    <required> 
+        <input pattern="[0-9]{8}"type="number" name="dni" id="dni" placeholder="Ingresa tu DNI aquí">
+    </required><br>
+    
+    <label for="correo">Ingrese su correo electronico: </label>
+    <input type="email" name="correo" id="correo" placeholder="ingresa tu correo electronico"> <br>
+
+    <label for="celular">Ingrese su numero de telefono: </label>
+    <input pattern="[0-9]{5}" id="celular" name="celular" placeholder="ingresa tu numero de telefono"> <br>
+
+    <form>
+        <label for="ciudad">Ingrese su localidad: </label>
+        <datalist id="ciudad">
+            <option value="San Francisco">
+            <option value="Frontera">
+        </datalist>
+        <input list="ciudad" id="ciudad" name="ciudad" placeholder="Elije tu localidad.">
+        
+    </form>
+
+    <h3>Seleccione su año y division: </h3>
+    <input type="radio" name="año" id="año">
+    <label for="asd">1° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">1° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">2° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">2° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">3° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">3° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">4° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">4° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">5° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">5° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">6° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">6° B</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">7° A</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">7° B</label><br>
+
+    <h3>Ingrese el torneo en el que participara: </h3>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">PENALES (FUTBOL)</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">LIBRES</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">PING PONG</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">KARAOKE</label><br>
+    <input type="radio" name="d1" id="d1" value="sad">
+    <label for="asd">PROGRAMACION</label><br>
+
+    <input type="submit">  
+</body>
+</html>
